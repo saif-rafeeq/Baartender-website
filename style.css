@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+#page1{
+    width: 100%;
+    height: 100vh;
+    background-color: #F9F5F0;
+}
+#nav{
+    width: 100%;
+    height: 80px;
+    /* background-color: salmon; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav1 h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 10px;
+    /* background-color: red; */
+}
+#nav2{
+    display: flex;
+    /* background-color: blueviolet; */
+    gap: 40px;
+    align-items: center;
+    /* padding-right: 10px; */
+}
+#nav2 h4{
+    font-size: 16px;
+    font-weight: 400;
+}
+#nav2 button{
+    padding: 8px 18px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+#text{
+    width: 40%;
+    height: 70%;
+    /* background-color: darkgoldenrod; */
+    margin: 50px 65px;
+}
+#text h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+#text p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+#text button{
+    padding: 7px 18px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 300;
+    /* background-color: purple; */
+}
+#text img{
+    width: 50%;
+    background-color: red;
+    /* padding-top: 20px; */
+    margin-left: 0px;
+    margin-top: 59px;
+
+}
+
+
+#page1 #baar{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+#page2{
+    width: 100%;
+    height: 100vh;
+    background-color: #F9F5F0;
+    display: flex;
+    padding-top: 60px;
+}
+#page2 h4{
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+    display: inline-block;
+    /* background-color: red; */
+    margin: 30px;
+}
+#page2 .left{
+    /* background-color: aqua; */
+    width: 30%;
+    height: 88%;
+    margin-left: 30px;
+    /* padding-left: 50px; */
+
+}
+#page2 .left img{
+    margin-left: 50px;
+}
+#page2 .left h4{
+    font-size: 12px;
+    /* background-color: blue; */
+    color: gray;
+    /* padding-bottom: 50px; */
+}
+.left h6{
+    font-size: 15px;
+    color: gray;
+    line-height: 2px;
+    margin-left: 160px;
+}
+.left h5{
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 145px;
+}
+
+#page2 .middle{
+    /* background-color: aqua; */
+    width: 30%;
+    height: 90%;
+    margin-left: 30px;
+    /* padding-left: 50px; */
+    margin-top: -80px;
+
+}
+#page2 .middle img{
+    margin-left: 50px;
+}
+#page2 .middle h4{
+    font-size: 12px;
+    /* background-color: blue; */
+    color: gray;
+    /* padding-bottom: 50px; */
+    margin-top: -0px;
+}
+.middle h6{
+    font-size: 15px;
+    color: gray;
+    line-height: 2px;
+    margin-left: 160px;
+    margin-top: -10px;
+}
+.middle h5{
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 145px;
+}
+
+#page2 .right{
+    /* background-color: aqua; */
+    width: 30%;
+    height: 88%;
+    margin-left: 30px;
+    /* padding-left: 50px; */
+    margin-top: -55px;
+
+}
+#page2 .right img{
+    margin-left: 50px;
+}
+#page2 .right h4{
+    font-size: 12px;
+    /* background-color: blue; */
+    color: gray;
+    /* padding-bottom: 50px; */
+    margin-top: 0px;
+}
+.right h6{
+    font-size: 15px;
+    color: gray;
+    line-height: 2px;
+    margin-left: 160px;
+}
+.right h5{
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 145px;
+}
+.left h3{
+    font-size: 13px;
+    font-weight: 300;
+    color: gray;
+    margin-top: -10px;
+
+}
+#page3{
+    width: 100%;
+    height: 90vh;
+    background-color: #F9F5F0;
+    display: flex;
+    position: relative;
+}
+#page3 img{
+    width: 25%;
+    margin: 90px 170px;
+}
+
+#page3 #content{
+    width: 40%;
+    height: 80%;
+    /* background-color: red; */
+    margin-top: 45px;
+}
+#content h5{
+    font-size: 13px;
+    font-weight: 500;
+}
+#page3 h1{
+    position: absolute;
+    top: 33%;
+    left: 25%;
+    transform: translate(0,-50%);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+#page4{
+    width: 100%;
+    height: 90vh;
+    background-color: #F9F5F0;
+}
+#page4 #top{
+    width: 85%;
+    height: 120px;
+    /* background-color: red; */
+    margin-left: 7.5%;
+    /* margin-top: -30px; */
+}
+
+#top h1{
+    font-size: 50px;
+    font-weight: 500;
+    /* background-color: blue; */
+    padding-left: 25%;
+    margin-bottom: 10px;
+}
+#top h5{
+    font-size: 12px;
+    font-weight: 500;
+    /* background-color: aqua; */
+    text-align: center;
+    line-height: 17px;
+}
+#center{
+    width: 90%;
+    height: 80%;
+    /* background-color: blue; */
+    margin-left: 3%;
+    margin-top: -40px;
+}
+#center #first img{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 160px;
+    margin-left: 100px;
+
+}
+
+ #second img{
+    width: 120px;
+    height: 190px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 200px;
+    margin-top: -160px;
+    
+}
+
+#third img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 310px;
+    margin-top: -225px;
+    
+}
+
+#forth img{
+    width: 180px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 480px;
+    margin-top: -50%;
+    margin-bottom: 11%;
+    
+}
+
+#fifth img{
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 53%;
+    margin-top: -285px;
+    margin-bottom: 5%;
+}
+
+#six img{
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 66%;
+    margin-top: -40%;
+    margin-bottom: 4.5%;
+    
+}
+
+
+#seven img{
+    width: 120px;
+    height: 190px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 82%;
+    margin-top: -590px;
+    margin-bottom: 11%;
+    
+}
+#footer{
+    background-color: red;
+    width: 40%;
+    height: 100px;
+    margin-top: -65px;
+    background-image: url(/Screenshot\ 2023-05-15\ 225725.png);
+    margin-left:30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
